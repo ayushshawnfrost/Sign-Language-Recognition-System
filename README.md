@@ -39,7 +39,9 @@ was annotated at creation time by the smartphone app. Videos were coarsely revie
 Institute of Technology to attempt to remove poor recordings. The input modality for the dataset is vision-based using
 hand gestures, facial expressions, and posture.
 
+
 ![image](https://github.com/ayushshawnfrost/Sign-Language-Recognition-System/assets/23500476/0e8a5875-5332-4b77-99f4-1f62ea9c05dc)
+
 
 ### Model for Classification
 After a brief literature review of current available solutions for classification task in general, we came to a conclusion
@@ -67,6 +69,8 @@ our own model.
 To make this sign language recognition model accessable to over the internet, we have hosted it on AWS S3 storage
 bucket. This kind of deployment will help the our web application to load the model on client side by downloading the
 model from S3 bucket.
+
+
 ![image](https://github.com/ayushshawnfrost/Sign-Language-Recognition-System/assets/23500476/7b03e3cc-56b0-47ff-864c-6683a49bbf3f)
 
 For the second part, we developed a supporting program which extracts the landmarks from a live webcam feed. This
@@ -94,18 +98,22 @@ prerecorded videos teaching how to do some common American sign language. These 
 learn a sign and try it out in the "Try Signing Below" section. The practice section of the web application can be seen on
 Figure 3. The user can see themselves on the web-app while signing. The web-application also has the ability to dictate
 the sign prediction out loud through speaker. A list of tips on how to get an accurate prediction is also mentioned on the
-web application. The prediction section of the web application can be seen on Figure 4
+web application. The prediction section of the web application can be seen on Figure 4.
 
 
 ![image](https://github.com/ayushshawnfrost/Sign-Language-Recognition-System/assets/23500476/6b1949f7-e549-44e1-8eb0-99ae9f1c6405)
+
 
 We have utilized React.js which is a very powerful javaScript library to develop the front-end. To utilize our sign
 language recognition model, we used tensorflow.js. TensorFlow.js is an open-source hardware-accelerated JavaScript
 library for training and deploying machine learning models. The sign recognition model requires the landmarks for
 face, pose, left hand and right hand as a input for prediction. This landmarks are extracted by using a yet another model
 called Mediapipe hollistic solution by Google. These landmarks are fed into the sign language recognition model to get
-a prediction
+a prediction.
+
 ![image](https://github.com/ayushshawnfrost/Sign-Language-Recognition-System/assets/23500476/bcaa7496-38c1-4dc0-acdb-1038fdf609f1)
+
+
 Furthermore, we also plan to release this application as an open-sourced project. Engaging with the open-source
 community has the power to amplify the project’s influence, making it accessible to a wider array of audiences and
 sectors. Collaborative efforts could lead to greater impact and adoption across various domains.
