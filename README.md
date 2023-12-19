@@ -14,11 +14,9 @@ Learning model for sign language classification; second, creating a user-friendl
 utilizing the classification model to promote sign language awareness.
 
 ## Technologies Used
-- Spring Boot
-- Spring Boot Security
-- PostgreSQL
-- JWT Authentication
-- CSRF Token Protection
+- Tensorflowjs
+- ReactJS
+- Mediapipe Hollistic Solution
 
 ## Methodology
 After a brief literature review of current available solutions for classification task in general, we came to a conclusion
